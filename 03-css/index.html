@@ -4,14 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <link href="style.css" rel="stylesheet" />
+    <style>
+      #parent {
+        position: relative;
+      }
+      span {
+        height: 5px;
+        width: 5px;
+        color: green;
+        position: absolute;
+        left: -5px;
+        top: -5px;
+      }
+    </style>
   </head>
   <body>
     <div id="parent">
-      <h1>Hey There</h1>
-      <h2>Obd Child</h2>
-      <h3>REM</h3>
+      <p id="one"><span>•</span>Anupam Thackar</p>
     </div>
+    <img
+      src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2011/09/context.png?w=530&ssl=1"
+    />
   </body>
 </html>
